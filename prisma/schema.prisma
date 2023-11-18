@@ -1,0 +1,67 @@
+// This is your Prisma schema file adapted for MySQL
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Profesor {
+  idprofesor Int               @id
+  nombre     String            @db.VarChar(30)
+  apellido   String            @db.VarChar(30)
+  correo     String            @db.VarChar(60)
+  contrasena String            @db.VarChar(18)
+  secciones  SeccionProfesor[]
+}
+
+model Alumno {
+  idalumno   Int             @id
+  nombre     String          @db.VarChar(30)
+  apellido   String          @db.VarChar(30)
+  correo     String          @db.VarChar(60)
+  contrasena String          @db.VarChar(18)
+  estado     String          @db.VarChar(18)
+  secciones  SeccionAlumno[]
+}
+
+model Seccion {
+  idseccion      Int               @id
+  codseccion     String            @db.VarChar(30)
+  seccion        String            @db.VarChar(20)
+  nombre_seccion String            @db.VarChar(30)
+  profesores     SeccionProfesor[]
+  alumnos        SeccionAlumno[]
+  listas         Lista[]
+}
+
+model SeccionProfesor {
+  profesor   Profesor @relation(fields: [idprofesor], references: [idprofesor])
+  idprofesor Int
+  seccion    Seccion  @relation(fields: [idseccion], references: [idseccion])
+  idseccion  Int
+
+  @@id([idprofesor, idseccion])
+}
+
+model SeccionAlumno {
+  alumno    Alumno  @relation(fields: [idalumno], references: [idalumno])
+  idalumno  Int
+  seccion   Seccion @relation(fields: [idseccion], references: [idseccion])
+  idseccion Int
+
+  @@id([idalumno, idseccion])
+}
+
+model Lista {
+  idlista             Int      @id
+  seccion             Seccion  @relation(fields: [idseccion], references: [idseccion])
+  idseccion           Int
+  fecha_lista         DateTime
+  asistencias_totales Int?
+  ausencias_totales   Int?
+  resultado_query     String   @db.VarChar(1000)
+}
