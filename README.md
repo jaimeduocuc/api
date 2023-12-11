@@ -19,6 +19,10 @@ RegistrAPP es una solución innovadora diseñada para facilitar el registro de a
 ## Tecnologías y Frameworks Utilizados
 Este proyecto se desarrolla utilizando Ionic Angular, adecuándose a las plataformas Android e iOS. Se han implementado pruebas unitarias para asegurar la calidad del software.
 
+| Angular                                         | JavaScript                                    | TypeScript                                    |
+| ---------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
+| <img src="./icons/Angular-Dark.svg" width="48"> | <img src="./icons/JavaScript.svg" width="48"> | <img src="./icons/TypeScript.svg" width="48"> |
+
 ![Ionic Angular](url_de_la_imagen_ionic_angular)
 ![Android](url_de_la_imagen_android)
 ![iOS](url_de_la_imagen_ios)
