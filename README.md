@@ -19,9 +19,22 @@ RegistrAPP es una solución innovadora diseñada para facilitar el registro de a
 ## Tecnologías y Frameworks Utilizados
 Este proyecto se desarrolla utilizando Ionic Angular, adecuándose a las plataformas Android e iOS. Se han implementado pruebas unitarias para asegurar la calidad del software.
 
+| NodeJS                                         | MySQL                                    | TypeScript                                    |
+| ---------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
+| <img src="./icons/NodeJS-Light.svg" width="48"> | <img src="./icons/MySQL-Light.svg" width="48"> | <img src="./icons/TypeScript.svg" width="48"> |
+
+| Postman                                         | VSCode                                    | Markdown                                    |
+| ---------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
+| <img src="./icons/Posmant.svg" width="48"> | <img src="./icons/VSCode-Light.svg" width="48"> | <img src="./icons/Markdown-Light.svg" width="48"> |
+
+| Git                                         | Github                                    | JavaScript                                    |
+| ---------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
+| <img src="./icons/Git.svg" width="48"> | <img src="./icons/Github-Light.svg" width="48"> | <img src="./icons/JavaScript.svg" width="48"> |
+
+
 | Angular                                         | JavaScript                                    | TypeScript                                    |
 | ---------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
-| <img src="./icons/Angular-Dark.svg" width="48"> | <img src="./icons/JavaScript.svg" width="48"> | <img src="./icons/TypeScript.svg" width="48"> |
+| <img src="./icons/Angular-Light.svg" width="48"> | <img src="./icons/JavaScript.svg" width="48"> | <img src="./icons/TypeScript.svg" width="48"> |
 
 ![Ionic Angular](url_de_la_imagen_ionic_angular)
 ![Android](url_de_la_imagen_android)
