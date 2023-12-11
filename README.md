@@ -5,10 +5,7 @@
 2. [Integrantes del Grupo](#integrantes-del-grupo)
 3. [Tecnologías y Frameworks Utilizados](#tecnologías-y-frameworks-utilizados)
 4. [Funcionalidades del Proyecto](#funcionalidades-del-proyecto)
-5. [Cómo Instalar y Ejecutar](#cómo-instalar-y-ejecutar-el-proyecto)
-6. [Enlaces de Repositorios](#enlaces-de-repositorios)
-7. [APK](#apk)
-8. [Contacto](#contacto)
+5. [Enlaces de Repositorios](#enlaces-de-repositorios)
 
 ## Descripción del Proyecto
 RegistrAPP es una solución innovadora diseñada para facilitar el registro de asistencia de los alumnos en las aulas, especialmente en el contexto de la pandemia. Esta aplicación móvil permite a los alumnos registrar su propia asistencia escaneando un código QR generado por el docente, minimizando errores y optimizando el tiempo dedicado a este proceso.
@@ -40,3 +37,8 @@ Este proyecto se desarrolla utilizando Ionic Angular, adecuándose a las platafo
 ![Pantalla de Ingreso](url_de_la_imagen_ingreso)
 ![Generación de Código QR](url_de_la_imagen_codigo_qr)
 ![Escaneo del Código QR](url_de_la_imagen_escaneo_qr)
+
+## Enlaces de Repositorios
+
+[Repositorio Frontend](https://www.duoc.cl/)
+[Repositorio API](https://www.duoc.cl/)
