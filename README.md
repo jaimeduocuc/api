@@ -25,7 +25,7 @@ Este proyecto se desarrolla utilizando Ionic Angular, adecuándose a las platafo
 
 | Postman                                         | VSCode                                    | Markdown                                    |
 | ---------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
-| <img src="./icons/Posmant.svg" width="48"> | <img src="./icons/VSCode-Light.svg" width="48"> | <img src="./icons/Markdown-Light.svg" width="48"> |
+| <img src="./icons/Postman.svg" width="48"> | <img src="./icons/VSCode-Light.svg" width="48"> | <img src="./icons/Markdown-Light.svg" width="48"> |
 
 | Git                                         | Github                                    | JavaScript                                    |
 | ---------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
