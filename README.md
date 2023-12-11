@@ -40,5 +40,5 @@ Este proyecto se desarrolla utilizando Ionic Angular, adecuándose a las platafo
 
 ## Enlaces de Repositorios
 
-[Repositorio Frontend](https://www.duoc.cl/)
-[Repositorio API](https://www.duoc.cl/)
+[Repositorio Frontend](https://github.com/jaimeduocuc/skeleton)
+[Repositorio API](https://github.com/jaimeduocuc/api)
